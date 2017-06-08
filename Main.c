@@ -292,7 +292,7 @@ void oddEven()
     printf("Enter two positive integers: ");
     scanf("%d %d", &number1, &number2);
 
-    printf("Prime numbers in range %d and %d are:\n", number1, number2);
+    printf("Odd even in range %d and %d are:\n", number1, number2);
 
     for (i = number1 + 1; i < number2; ++i)
     {
@@ -329,6 +329,8 @@ void minMax()
     {
         scanf("%d", &numbers[i]);
     }
+    findMin();
+    findMax();
 }
 
 void findMin()
