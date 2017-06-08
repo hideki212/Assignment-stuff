@@ -175,7 +175,7 @@ void calc()
 	float num1 = num(1);
 	float num2 = num(2);
 	sym(num1, num2);
-	printf("This program will now shut down. If you have any complaints please direct them to /dev/null.\n");
+	printf("This calculator will now shut down. If you have any complaints please direct them to /dev/null.\n");
 }
 
 void addFunc(float x, float y) // +
